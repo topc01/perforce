@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perforce", "Perforce\Perforce.csproj", "{339FCA49-AAFF-4EF6-82D4-6763FBCC0031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perforce.Tests", "Perforce.Tests\Perforce.Tests.csproj", "{F5223CE0-6440-4700-AB3A-B1AD4B4B1229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionControlSystem", "VersionControlSystem\VersionControlSystem.csproj", "{9FCF75E5-9886-4CF7-A21C-30B47EDF6F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{339FCA49-AAFF-4EF6-82D4-6763FBCC0031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339FCA49-AAFF-4EF6-82D4-6763FBCC0031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339FCA49-AAFF-4EF6-82D4-6763FBCC0031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339FCA49-AAFF-4EF6-82D4-6763FBCC0031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5223CE0-6440-4700-AB3A-B1AD4B4B1229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5223CE0-6440-4700-AB3A-B1AD4B4B1229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5223CE0-6440-4700-AB3A-B1AD4B4B1229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5223CE0-6440-4700-AB3A-B1AD4B4B1229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCF75E5-9886-4CF7-A21C-30B47EDF6F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCF75E5-9886-4CF7-A21C-30B47EDF6F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCF75E5-9886-4CF7-A21C-30B47EDF6F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCF75E5-9886-4CF7-A21C-30B47EDF6F00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

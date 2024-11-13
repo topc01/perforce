@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "VersionControlSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VersionControlSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VersionControlSystem.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VersionControlSystem/1.0.0": {
+      "type": "project",
+      "path": "../VersionControlSystem/VersionControlSystem.csproj",
+      "msbuildProject": "../../../../../OneDrive-UniversidadCatólicadeChile/2024-2/DDS/Perforce/VersionControlSystem/VersionControlSystem.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "VersionControlSystem >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/topc/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/topc/Library/CloudStorage/OneDrive-UniversidadCatólicadeChile/2024-2/DDS/Perforce/Perforce/Perforce.csproj",
+      "projectName": "Perforce",
+      "projectPath": "/Users/topc/Library/CloudStorage/OneDrive-UniversidadCatólicadeChile/2024-2/DDS/Perforce/Perforce/Perforce.csproj",
+      "packagesPath": "/Users/topc/.nuget/packages/",
+      "outputPath": "/Users/topc/Library/CloudStorage/OneDrive-UniversidadCatólicadeChile/2024-2/DDS/Perforce/Perforce/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/topc/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/topc/Library/CloudStorage/OneDrive-UniversidadCatólicadeChile/2024-2/DDS/Perforce/VersionControlSystem/VersionControlSystem.csproj": {
+              "projectPath": "/Users/topc/Library/CloudStorage/OneDrive-UniversidadCatólicadeChile/2024-2/DDS/Perforce/VersionControlSystem/VersionControlSystem.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
